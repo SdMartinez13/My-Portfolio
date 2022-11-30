@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
 const Header = () => {
-  const { homepage, title } = header
+  const { homepage, title, image } = header
 
   return (
     <header className='header center'>

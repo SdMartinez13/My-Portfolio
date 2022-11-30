@@ -1,9 +1,11 @@
 import aboutpic from "./components/Access/mePhoto.jpeg"
+import logo from "./components/Access/logo.png"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://thestephenmartinez.com/',
   title: 'JS.',
+  image: logo
 }
 
 const about = {
