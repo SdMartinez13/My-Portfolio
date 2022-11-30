@@ -1,15 +1,16 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const {photo,name, role, description, resume, social } = about
+  const {photo, name, role, description, resume, social } = about
 
   return (
     <div className='about center'>
       {photo && (
-       <img height="200px" alt="Avatar placeholder" src={photo} />
+       <img height="300px" alt="Avatar placeholder" src={photo} />
       )}
       {name && (
         <h1>
@@ -22,10 +23,14 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
+          <a href={resume}
+          aria-label='resume'
+          className='link link--icon'
+          >
+            {/* <span type='button' className='btn btn--outline'>
               Resume
-            </span>
+            </span> */}
+            <InsertDriveFileOutlinedIcon />
           </a>
         )}
 
