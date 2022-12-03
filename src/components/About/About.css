@@ -2,6 +2,9 @@
   flex-direction: column;
   margin-top: 3em;
 }
+.about img {
+  margin-bottom: 20px;
+}
 
 .about__name {
   color: var(--clr-primary);
@@ -31,7 +34,13 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin-top: 2em;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__role {
+    font-size: 1.8em;
   }
 }
