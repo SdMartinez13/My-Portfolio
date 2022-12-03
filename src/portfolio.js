@@ -13,10 +13,10 @@ const header = {
 }
 
 const about = {
-  photo:aboutpic,
+  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Stephen Martinez',
-  role: 'Full stack developer',
+  role: 'Full Stack Developer',
   description:
     'Code Fellows graduate where I received my Certificate of Training in Advanced Software Development with Javascript.  I\'m looking for a career where I can help others in the world of tech.',
   // resume: 'https://docs.google.com/document/d/1ePw0fRU3exmrkEOQbym396Q6V7oSaxNNxIln60uy6Ls/edit?usp=sharing',

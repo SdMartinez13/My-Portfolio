@@ -10,24 +10,11 @@ const Header = () => {
 
   return (
     <header className='header center'>
-      {themeName === 'dark' ? (
-        <a href={homepage} className='link'>
-          <img src={imageDark} width='100' height='100' alt='Stephen Martinez'/>
-        </a>
-      ):(
-        <a href={homepage} className='link'>
-          <img src={imageLight} width='100' height='100' alt='Stephen Martinez'/>
-        </a>
-      )}
-      {/* <h3>
-        {homepage ? (
-          <a href={homepage} className='link'>
-            {title}
-          </a>
-        ) : (
-          title
-        )}
-      </h3> */}
+
+      <a href={homepage} className='link'>
+        <img src={themeName === 'dark' ? imageDark : imageLight} width='100' height='100' alt='Stephen Martinez' />
+      </a>
+
       <Navbar />
     </header>
   )
