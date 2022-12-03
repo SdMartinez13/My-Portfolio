@@ -1,11 +1,15 @@
 import aboutpic from "./components/Access/mePhoto.jpeg"
-import logo from "./components/Access/logo.png"
+// import logo from "./components/Access/logo.png"
+import logoLight from './components/Access/logoLight.png'
+import logoDark from './components/Access/logoDark.png'
+import resumePDF from './components/Access/Stephen-Martinez-Resume.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://thestephenmartinez.com/',
   title: 'JS.',
-  image: logo
+  imageLight: logoLight,
+  imageDark: logoDark
 }
 
 const about = {
@@ -15,7 +19,8 @@ const about = {
   role: 'Full stack developer',
   description:
     'Code Fellows graduate where I received my Certificate of Training in Advanced Software Development with Javascript.  I\'m looking for a career where I can help others in the world of tech.',
-  resume: 'https://docs.google.com/document/d/1ePw0fRU3exmrkEOQbym396Q6V7oSaxNNxIln60uy6Ls/edit?usp=sharing',
+  // resume: 'https://docs.google.com/document/d/1ePw0fRU3exmrkEOQbym396Q6V7oSaxNNxIln60uy6Ls/edit?usp=sharing',
+  resume: resumePDF,
   social: {
     linkedin: 'https://www.linkedin.com/in/sdmartinez/',
     github: 'https://github.com/SdMartinez13',
